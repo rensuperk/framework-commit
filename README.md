@@ -7,3 +7,4 @@
 
 使用注解，aop来控制
 实现的很简单
+有个缺陷应该用concurrentHashMap来实现,不应该用hashMap实现,有线程同步的问题
